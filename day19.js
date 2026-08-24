@@ -1,21 +1,3 @@
-// async await
-//  async function always return a promise
-// for error we always use catchclear
-
-
-
-// async function greet(){
-//     // return "harshala";
-//     return new Promise((resolve, reject)=>{
-//         resolve("harshala");
-//     })
-// }
-
-// const response = greet();
-// // console.log(response);
-// response.then((data)=> console.log(data));
-
-
 async function github() {
     try {
         const response = await fetch("https://api.github.com/users");
